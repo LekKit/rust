@@ -1043,6 +1043,7 @@ impl Builder<'_> {
         if !mode.must_support_dlopen()
             && !target.triple.starts_with("powerpc-")
             && !target.triple.contains("cygwin")
+            && !target.triple.contains("haiku")
         {
             cargo.env("RUSTC_TLS_MODEL_INITIAL_EXEC", "1");
         }
