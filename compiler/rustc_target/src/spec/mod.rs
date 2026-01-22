@@ -1537,6 +1537,7 @@ supported_targets! {
 
     ("i686-unknown-haiku", i686_unknown_haiku),
     ("x86_64-unknown-haiku", x86_64_unknown_haiku),
+    ("riscv64gc-unknown-haiku", riscv64gc_unknown_haiku),
 
     ("aarch64-unknown-helenos", aarch64_unknown_helenos),
     ("i686-unknown-helenos", i686_unknown_helenos),
